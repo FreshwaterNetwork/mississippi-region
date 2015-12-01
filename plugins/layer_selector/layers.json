@@ -1,0 +1,35 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana Freshwater",
+            "folders": [
+                {
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "name": "",
+                    "services": [
+						{ "name": "MS_River_and_Stream_Features", "type": "dynamic"},
+						{ "name": "Mississippi_Watersheds", "type": "dynamic"},
+						{ "name": "MS_Political_Boundaries", "type": "dynamic"},                       
+						{ "name": "Mississippi_Land_Cover", "type": "dynamic"}
+                     ]
+                }
+            ]
+        }		
+    },
+	{
+		"agsSource": {
+			"url": "http://54.241.26.242/arcgis/rest/services/",
+			"folderTitle": "MS_Freshwater",
+			"folders": [
+				{
+					"url": "http://54.241.26.242/arcgis/rest/services/MS_Freshwater",
+					"name": "",
+					"services": [
+						{ "name": "MS_Protected_Areas_PAD", "type": "dynamic"}
+					]
+				}
+			]
+		}
+	}
+]

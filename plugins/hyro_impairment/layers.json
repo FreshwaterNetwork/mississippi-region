@@ -1,0 +1,21 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana Freshwater",
+            "folders": [
+                {
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "name": "",
+                    "services": [
+                        { "name": "MS_Hydrologic_Alteration_Features", "type": "dynamic"},
+						{ "name": "MS_HUC_8_Hydrologic_Alteration_Assessments", "type": "dynamic"},
+						{ "name": "MS_HUC_12_Hydrologic_Alteration_Assessments", "type": "dynamic"},
+						{ "name": "MS_County_Hydrologic_Alteration_Assessments", "type": "dynamic"},
+						{ "name": "MS_Congressional_District_Hydrologic_Alteration_Assessments", "type": "dynamic"}
+                     ]
+                }
+            ]
+        }
+    }
+]

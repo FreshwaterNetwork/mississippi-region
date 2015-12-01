@@ -1,0 +1,75 @@
+
+{
+    "pluginName": "Watershed Comparison",
+    "pluginDesc": "Compare attributes of up to three watersheds",
+    "featureName": "Watershed",
+    "layers": [
+        {
+            "name": "HUC 8",
+            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Mississippi_Watersheds/MapServer/0",
+            "mapDisplayAttribute": "SUBBASIN",
+            "attrs": [
+                {"name": "SUBBASIN", "format": "text", "maxLength": 32},
+                {"name": "Dm_100SQmi", "format": "number", "digits": 4, "unit": "", "nonZeroCutoff": 0.0001},
+                {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
+                {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},
+                {"name": "ResX100", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
+                {"name": "VEG_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},
+                {"name": "Prot_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001}
+                
+            ]
+        },
+        {
+            "name": "HUC 12",
+            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/Mississippi_Watersheds/MapServer/1",
+            "mapDisplayAttribute": "SUBWATERSHED",
+            "attrs": [
+                {"name": "SUBWATERSHED", "format": "text", "maxLength": 80},
+                {"name": "Dm100sqmi", "format": "number", "digits": 4, "unit": "", "nonZeroCutoff": 0.0001},
+                {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
+                {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},                    
+                {"name": "ResX100", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
+                {"name": "VEG_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},
+                {"name": "Prot_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001}
+                
+            ]
+        },
+		{
+            "name": "Counties",
+            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/MS_Political_Boundaries/MapServer/0",
+            "mapDisplayAttribute": "County",
+            "attrs": [
+                {"name": "County", "format": "text", "maxLength": 32},
+                {"name": "Dm100sqmi", "format": "number", "digits": 4, "unit": "", "nonZeroCutoff": 0.0001},
+                {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
+                {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},                    
+                {"name": "ResX100", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
+                {"name": "VEG_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},
+                {"name": "Prot_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001}
+                
+            ]
+        },
+		{
+            "name": "Congressional Districts",
+            "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/MS_Political_Boundaries/MapServer/1",
+            "mapDisplayAttribute": "DISTRICT",
+            "attrs": [
+                {"name": "DISTRICT", "format": "text", "maxLength": 32},
+                {"name": "Dm100sqmi", "format": "number", "digits": 4, "unit": "", "nonZeroCutoff": 0.0001},
+                {"name": "DamStorIdx", "format": "number", "digits": 4, "unit": " ft", "nonZeroCutoff": 0.0001},
+                {"name": "canal_idx", "format": "number", "digits": 3, "unit": "", "nonZeroCutoff": 0.001},                    
+                {"name": "ResX100", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.001},
+                {"name": "VEG_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001},
+                {"name": "Prot_idx", "format": "percent", "digits": 2, "unit": "%", "nonZeroCutoff": 0.0001}
+                
+            ]
+        }	
+     ],
+     "selectionColors": [
+        [4,180,174,0.6],
+        [1,116,223,0.6],
+        [4,180,4,0.6]
+     ],
+     "highlightColor": [15, 10, 105, 0.45],
+     "highlightOutlineColor": [255, 255, 255, 0.35]
+}
