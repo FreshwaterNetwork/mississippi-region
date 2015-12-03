@@ -1,8 +1,0 @@
-2014-09-11 15:00:36,829 ERROR - ClientLog: Error in config file layers.json: Missing required property: name (data path: /1/agsSource/folders/0/services/1)
- - UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
-2014-09-11 15:02:31,957 ERROR - ClientLog: Error in config file layers.json: Missing required property: name (data path: /1/agsSource/folders/0/services/1)
- - UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
-2014-09-11 15:02:54,670 ERROR - ClientLog: Error in config file layers.json: JSON.parse: expected ',' or ']' after array element at line 33 column 8 of the JSON data
- - UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
-2014-09-11 15:04:40,766 ERROR - ClientLog: Error in config file layers.json: JSON.parse: expected ',' or ']' after array element at line 33 column 8 of the JSON data
- - UserAgent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
