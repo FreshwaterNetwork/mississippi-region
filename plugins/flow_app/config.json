@@ -2,7 +2,7 @@
 	{
 		"toolbarName": "Water Flow App",
 		"dialogWidth": 625,
-		"dialogHeight": 625,
+		"dialogHeight": 700,
 		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
 		"infoGraphic":"plugins/flow_app/slr_flooding_c.jpg",
 		"hydrographPath":"http://ec2-54-81-38-200.compute-1.amazonaws.com/static/tnc/Baseline_hydrographs_OCT2015/Baseline_hydrograph_",
