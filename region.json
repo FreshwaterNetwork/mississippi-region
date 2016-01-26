@@ -1,8 +1,8 @@
 {
     "titleMain": { "text": "TNC Mississippi", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/mississippi/index.htm" },
-    "titleDetail": { "text": "Freshwater Assesment", "url": "http://freshwaternetwork.org" },
+    "titleDetail": { "text": "Freshwater Assessment", "url": "http://freshwaternetwork.org" },
     "headerLinks": [
-        { "text": "The Nature Conservancy", "url": "http://nature.org/freshwater/" },
+        { "text": "The Nature Conservancy", "url": "http://nature.org" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
         { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
@@ -25,11 +25,21 @@
     ],
     "pluginOrder": [
         "layer_selector",
-        "measure"
+		"flow_app",
+		"water_quality",
+		"feature_compare",
+		"draw_report",
+		"hydro_alteration",
+		"zoom_to",
+		"measure",
+		"legend_display",
+		"full_extent",
+		"subregion_toggle"
+       
     ],
     
-    "identifyBlacklist":["OBJECTID", "Shape"],
-    
+    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+	"identifyEnabled": true,
     "colors": {
         "primary": "#457545",
         "secondary": "#81b94d"
