@@ -5,7 +5,7 @@
             "repo": "HydroFlow",
             "name": "flow_app",
 			"org": "FreshwaterNetwork"
-        },
+        }, 
 		{
 			"repo": "draw-and-report",
 			"name": "draw_report"
