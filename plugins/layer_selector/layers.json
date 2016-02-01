@@ -34,6 +34,7 @@
 										]
 									},
 									{
+									"name": "",
 					"services":[
 											{ "name": "Mississippi_Freshwater", "type": "dynamic", "displayName": "Managed Areas", "showLayers": [
 															{"id":9, "parentLayerId":-1 },
@@ -91,6 +92,7 @@
 										]
 									},
 									{
+									"name": "",
 					"services":[
 											{ "name": "Mississippi_Freshwater", "type": "dynamic", "displayName": "Land Cover", "showLayers": [
 															{"id":58, "parentLayerId":-1 },
