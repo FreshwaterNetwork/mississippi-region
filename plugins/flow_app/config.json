@@ -1,6 +1,6 @@
 ﻿[
 	{
-		"toolbarName": "Hydro Flows",
+		"toolbarName": "Water Flow App",
 		"dialogWidth": 625,
 		"dialogHeight": 700,
 		"WaterFALLService":"http://ec2-54-81-38-200.compute-1.amazonaws.com/wf_api/",
@@ -32,6 +32,7 @@
 				"basinID":"MS_HUC12.HUC12",
 				"LayerID": "FlowAppHuc12Layer",
 				"metricPrefix":"SingleMetrics.",
+				"metricCheck":"SingleMetrics.HUC12",
 				"legendName":"12 Digit Basins (HUC 12)",
 				"symbol": {
                     "type": "esriSFS",
