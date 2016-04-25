@@ -27,7 +27,7 @@
 				}
 			},
 			"HUC12":{
-				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/MSSingleMetrics/MapServer/0",
+				"service":"http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/5",
 				"displayName": "SingleMetrics.huc12_name",
 				"basinID":"MS_HUC12.HUC12",
 				"LayerID": "FlowAppHuc12Layer",
@@ -47,7 +47,7 @@
                 }
 			},
 			"NavigationResults":{
-				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/MSSingleMetrics/MapServer/0",
+				"service":"http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/5",
 				"displayName": "SingleMetrics.huc12_name",
 				"basinID":"MS_HUC12.HUC12",						
 				"LayerID":"FlowAppNavResults",
@@ -66,7 +66,7 @@
                 }
 			},
 			"Catchments":{
-				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/MSCatchments/MapServer/0",
+				"service":"http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/6",
 				"displayName": "featureid",
 				"basinID":"WBD_HUC12",
 				"LayerID": "FlowAppCatchments",
@@ -84,12 +84,12 @@
                 }
 			},
 			"StreamsLowRes":{
-				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/MS_Flowlines/MapServer/0",
+				"service":"http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/2",
 				"LayerID": "FlowAppStreamsLowRes",
 				"legendName":"Streams"
 			},
 			"StreamsMedRes":{
-				"service":"https://mapservices80.rti.org/arcgis/rest/services/TNC/MS_Flowlines/MapServer/1",
+				"service":"http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/RTI/MapServer/3",
 				"LayerID": "FlowAppStreamsMedRes",
 				"legendName":"Streams"
 			}
