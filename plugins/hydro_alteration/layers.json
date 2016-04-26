@@ -2,7 +2,7 @@
     {
         "agsSource": {
             "url": "http://50.18.215.52/arcgis/rest/services/",
-            "folderTitle": "Louisiana Freshwater",
+            "folderTitle": "Alteration Layers",
             "folders": [
                 {
                     "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",

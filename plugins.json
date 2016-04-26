@@ -15,9 +15,8 @@
 			"name": "feature_compare"
 		},
 		{
-			"repo": "hydro_alteration",
-			"name": "hydro_alteration",
-			"org": "FreshwaterNetwork"
+			"repo": "regional-planning",
+			"name": "hydro_alteration"
 		}
     ]
 }
