@@ -1,4 +1,3 @@
-﻿
 define([
     "dojo/_base/declare",
     "plugins/layer_selector/main",
@@ -8,7 +7,7 @@ define([
               layerSourcesJson) {
         return declare(LayerSelectorPlugin, {
             toolbarName: "Hydrologic Alterations",
-            fullName: "Configure and control layers to be overlayed on the base map.",
+            fullName: "Explore hydrologic alteration features and assessments in your watersheds.",
 
             getLayersJson: function() {
                 return layerSourcesJson;
