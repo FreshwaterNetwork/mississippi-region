@@ -13,10 +13,6 @@
 		{
 			"repo": "feature-compare",
 			"name": "feature_compare"
-		},
-		{
-			"repo": "regional-planning",
-			"name": "hydro_alteration"
 		}
     ]
 }
