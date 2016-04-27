@@ -1,13 +1,13 @@
 [
     {
         "agsSource": {
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/",
-            "folderTitle": "FN_Mississippi",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi",
+            "folderTitle": "Hydrologic Alteration",
             "folders": [
 				{
 									"name": "",
                     "services": [
-											{ "name": "FN_Mississippi", "type": "dynamic", "displayName": "Hydrologic Alteration Features", "showLayers": [
+											{ "name": "MS_Hydrologic_Alteration", "type": "dynamic", "displayName": "Hydrologic Alteration Features", "showLayers": [
 															{"id":1, "parentLayerId":-1 },
 															{"id":2, "parentLayerId":-1 }
 													]
@@ -17,7 +17,7 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "FN_Mississippi", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
+											{ "name": "MS_Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
 															{"id":4, "parentLayerId":-1 },
 															{"id":5, "parentLayerId":-1 },
 															{"id":6, "parentLayerId":-1 },
@@ -29,7 +29,7 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "FN_Mississippi", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
+											{ "name": "MS_Hydrologic_Alteration", "type": "dynamic", "displayName": "HUC12 Alteration Assessments", "showLayers": [
 															{"id":9, "parentLayerId":-1 },
 															{"id":10, "parentLayerId":-1 },
 															{"id":11, "parentLayerId":-1 },
@@ -41,7 +41,7 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "FN_Mississippi", "type": "dynamic", "displayName": "County Alteration Assessments", "showLayers": [
+											{ "name": "MS_Hydrologic_Alteration", "type": "dynamic", "displayName": "County Alteration Assessments", "showLayers": [
 															{"id":14, "parentLayerId":-1 },
 															{"id":15, "parentLayerId":-1 },
 															{"id":16, "parentLayerId":-1 },
@@ -53,7 +53,7 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "FN_Mississippi", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
+											{ "name": "MS_Hydrologic_Alteration", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
 															{"id":19, "parentLayerId":-1 },
 															{"id":20, "parentLayerId":-1 },
 															{"id":21, "parentLayerId":-1 },
