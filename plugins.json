@@ -16,9 +16,6 @@
 		{
 			"repo": "feature-compare",
 			"name": "feature_compare"
-		},
-		{   "repo": "map-tree",
-		    "name": "hydro_alteration"
 		}
     ]
 }
