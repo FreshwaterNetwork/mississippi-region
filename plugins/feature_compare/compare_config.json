@@ -6,7 +6,7 @@
     "layers": [
         {
             "name": "HUC 8",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/3",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/4",
             "mapDisplayAttribute": "SUBBASIN",
             "attrs": [
                 {"name": "SUBBASIN", "format": "text", "maxLength": 32},
@@ -21,7 +21,7 @@
         },
         {
             "name": "HUC 12",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/4",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/5",
             "mapDisplayAttribute": "SUBWATERSHED",
             "attrs": [
                 {"name": "SUBWATERSHED", "format": "text", "maxLength": 80},
@@ -36,7 +36,7 @@
         },
 		{
             "name": "Counties",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/6",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/8",
             "mapDisplayAttribute": "County",
             "attrs": [
                 {"name": "County", "format": "text", "maxLength": 32},
@@ -51,7 +51,7 @@
         },
 		{
             "name": "Congressional Districts",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/7",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi/MS_Map_Layers/MapServer/9",
             "mapDisplayAttribute": "DISTRICT",
             "attrs": [
                 {"name": "DISTRICT", "format": "text", "maxLength": 32},
