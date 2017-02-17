@@ -7,9 +7,9 @@
 				{
 									"name": "",
                     "services": [
-											{ "name": "MS_Map_Layers", "type": "dynamic", "displayName": "Hydrologic Alteration Features", "showLayers": [
-															{"id":62, "parentLayerId":-1 },
-															{"id":63, "parentLayerId":-1 }
+											{ "name": "MS_Map_Layers_2", "type": "dynamic", "displayName": "Hydrologic Alteration Features", "showLayers": [
+															{"id":64, "parentLayerId":-1 },
+															{"id":65, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -17,11 +17,11 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "MS_Map_Layers", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
-															{"id":65, "parentLayerId":-1 },
-															{"id":66, "parentLayerId":-1 },
+											{ "name": "MS_Map_Layers_2", "type": "dynamic", "displayName": "HUC8 Alteration Assessments", "showLayers": [
 															{"id":67, "parentLayerId":-1 },
-															{"id":68, "parentLayerId":-1 }
+															{"id":68, "parentLayerId":-1 },
+															{"id":69, "parentLayerId":-1 },
+															{"id":70, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -29,11 +29,11 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "MS_Map_Layers", "type": "dynamic", "displayName": "HUC12 Alteration Assessments", "showLayers": [
-															{"id":70, "parentLayerId":-1 },
-															{"id":71, "parentLayerId":-1 },
+											{ "name": "MS_Map_Layers_2", "type": "dynamic", "displayName": "HUC12 Alteration Assessments", "showLayers": [
 															{"id":72, "parentLayerId":-1 },
-															{"id":73, "parentLayerId":-1 }
+															{"id":73, "parentLayerId":-1 },
+															{"id":74, "parentLayerId":-1 },
+															{"id":75, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -41,11 +41,11 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "MS_Map_Layers", "type": "dynamic", "displayName": "County Alteration Assessments", "showLayers": [
-															{"id":75, "parentLayerId":-1 },
-															{"id":76, "parentLayerId":-1 },
+											{ "name": "MS_Map_Layers_2", "type": "dynamic", "displayName": "County Alteration Assessments", "showLayers": [
 															{"id":77, "parentLayerId":-1 },
-															{"id":78, "parentLayerId":-1 }
+															{"id":78, "parentLayerId":-1 },
+															{"id":79, "parentLayerId":-1 },
+															{"id":80, "parentLayerId":-1 }
 													]
 											}
 										]
@@ -53,11 +53,11 @@
 									{
 									"name": "",
 					"services":[										
-											{ "name": "MS_Map_Layers", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
-															{"id":80, "parentLayerId":-1 },
-															{"id":81, "parentLayerId":-1 },
+											{ "name": "MS_Map_Layers_2", "type": "dynamic", "displayName": "Congressional District Alteration Assessments", "showLayers": [
 															{"id":82, "parentLayerId":-1 },
-															{"id":83, "parentLayerId":-1 }
+															{"id":83, "parentLayerId":-1 },
+															{"id":84, "parentLayerId":-1 },
+															{"id":85, "parentLayerId":-1 }
 													]
 											}
 										]
