@@ -1,5 +1,5 @@
 ﻿{
-    "gpUrl": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/DrawAndReport/GPServer/getDrawAndReportDataPath",
+    "gpUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/getDrawAndReportDataPath/GPServer/getDrawAndReportDataPath",
     "reports":
         [
             { 
@@ -9,7 +9,7 @@
                 "layers": [
                     {   
                         "display": "Streams",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/MS_River_and_Stream_Features.MapServer/extracted/v101/msfa.gdb/MS_complete_mjr_rivers",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_complete_mjr_rivers",
                         "field": "GNIS_Name",
                         "units": "km"
                     }
@@ -22,13 +22,13 @@
                 "layers": [
                     {   
                         "display": "HUC 8",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Mississippi_Watersheds.MapServer/extracted/v101/msfa.gdb/MS_Complete_HUC8",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_Complete_HUC8",
                         "field": "SUBBASIN",
                         "units": "Square km"
                     },
 					{   
                         "display": "HUC 12",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Mississippi_Watersheds.MapServer/extracted/v101/msfa.gdb/MS_Complete_HUC12",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_Complete_HUC12",
                         "field": "SUBWATERSHED",
                         "units": "Square km"
                     }
@@ -40,11 +40,35 @@
                 "description": "This is an example report with multiple layers: protected areas.",
                 "layers": [
                     {   
-                        "display": "Protected Area Database",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/MS_Protected_Areas.MapServer/extracted/v101/msfa.gdb/MS_Protected_Area_web_mercator",
+                        "display": "Wetland Reserve Program",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_WRP_web",
                         "field": "Name",
                         "units": "Square km"
-					}				
+					},
+					{   
+                        "display": "Wildlife Management Areas",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_only_WMA",
+                        "field": "Name",
+                        "units": "Square km"
+					},
+					{   
+                        "display": "State Parks",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_only_state_park",
+                        "field": "Name",
+                        "units": "Square km"
+					},
+					{   
+                        "display": "National Wildlife Refuges",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_only_NWR",
+                        "field": "Name",
+                        "units": "Square km"
+					},
+					{   
+                        "display": "National Forests",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_only_Nat_Forest",
+                        "field": "Name",
+                        "units": "Square km"
+					}
                 ]
             },
 			{
@@ -54,19 +78,19 @@
                 "layers": [
 					{   
                         "display": "Dams",
-                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/Dams_test.MapServer/extracted/v101/la_ms_combined.gdb/LA_MS_combined_dams_web_mercator",
+                        "layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Louisiana/Hydrologic_Alteration.MapServer/extracted/v101/la_ms_combined.gdb/LA_MS_combined_dams_web_mercator",
                         "field": "",
                         "units": "dams"
                     },
 					{
 						"display": "Canals",
-						"layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/MS_Hydrologic_Alteration_Features.MapServer/extracted/v101/msfa.gdb/MS_Complete_Canals",
+						"layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_Complete_Canals",
 						"field": "",
 						"units": "km"
 					},
 					{
 						"display": "Industrial/Agricultural Reservoirs",
-						"layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/Louisiana_Freshwater/MS_Hydrologic_Alteration_Features.MapServer/extracted/v101/msfa.gdb/MS_Complete_Indust_Ag_res",
+						"layer": "D:/arcgisserver/directories/arcgissystem/arcgisinput/FN_Mississippi/MS_Map_Layers.MapServer/extracted/v101/msfa.gdb/MS_Complete_Indust_Ag_res",
 						"field": "",
 						"units": "Square km"
 					}
