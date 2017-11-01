@@ -33,7 +33,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
-		"water-quality"
+		"water-quality",
 		"flow_app",
 		"feature_compare",
 		"draw_report",
