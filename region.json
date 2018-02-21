@@ -2,11 +2,13 @@
     "googleAnalyticsPropertyId": "28810260-22",
     "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
-    "titleDetail": { "text": "Mississippi Freshwater Assessment", "url": "http://freshwaternetwork.org/waternews/mississippi.html" },
+    "titleDetail": { "text": "Mississippi Freshwater Assessment", "url": "http://freshwaternetwork.org/mississippi.html" },
     "headerLinks": [
 	{ "text": "GO TO", "url": "#", "items": [
 		{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+		{ "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
         { "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
       ]
 	},
