@@ -139,7 +139,7 @@
 
             ga('create', 'UA-@Model.GoogleAnalyticsPropertyId', 'auto', {'allowLinker': true});
             ga('require', 'linker');
-            ga('linker:autoLink', ['http://maps.freshwaternetwork.org/alabama-demo/', 'http://maps.freshwaternetwork.org/louisiana/', 'http://freshwaternetwork.org/', 'http://maps.freshwaternetwork.org/northeast/', 'http://maps.freshwaternetwork.org/chesapeake/', 'http://maps.freshwaternetwork.org/wisconsin/' );
+            ga('linker:autoLink', ['http://maps.freshwaternetwork.org/alabama-demo/', 'http://maps.freshwaternetwork.org/louisiana/', 'http://freshwaternetwork.org/', 'http://maps.freshwaternetwork.org/northeast/', 'http://maps.freshwaternetwork.org/wisconsin/', 'http://maps.freshwaternetwork.org/chesapeake/'] );
             ga('send', 'pageview');
         </script>
         <!-- End Google Analytics -->
@@ -149,6 +149,7 @@
 
 <!-- EX.: view-split, view-left, view-right -->
 <body class="view-left" style="zoom: 0 !important;">
+
     <!-- iframe and form are used in tandem to facilitate a non-reloading
         POST to the download URL.  The form targets the iframe, making it reload
         when performing the action -->
@@ -296,6 +297,7 @@
     <script type="text/template" id="template-topbar-plugin">
             <a class="plugin-launcher i18n" data-i18n="[title]<%=fullName%>" href="javascript:;"></a>
     </script>
+
     <script type="text/template" id="template-topbar-tools">
         <span class="topbar-tools">
             <a class="plugin-clear" href="javascript:;">&#10006;</a>
@@ -319,6 +321,7 @@
                     <h6 class="i18n" data-i18n="<%- title %>"><%- title %></h6>
                     <a class="plugin-off" href="javascript:;">&#10006;</a>
                     <a class="plugin-close" href="javascript:;">&#95;</a>
+
                     <% if (hasCustomPrint) { %>
                         <a class="plugin-print i18n" data-i18n="[title]Print Contents" href="javascript:;" title="Print Contents"><i class="fa fa-print"></i></a>
                     <% } %>
@@ -366,6 +369,7 @@
             </div>
         </div>
     </script>
+
     <script type="text/template" id="template-export-window">
         <div class="popover">
             <div class="popover-header">
