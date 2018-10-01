@@ -137,7 +137,9 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-@Model.GoogleAnalyticsPropertyId', 'auto');
+            ga('create', 'UA-@Model.GoogleAnalyticsPropertyId', 'auto', {'allowLinker': true});
+            ga('require', 'linker');
+            ga('linker:autoLink', ['http://maps.freshwaternetwork.org/alabama-demo/', 'http://maps.freshwaternetwork.org/louisiana/', 'http://freshwaternetwork.org/', 'http://maps.freshwaternetwork.org/northeast/', 'http://maps.freshwaternetwork.org/wisconsin/', 'http://maps.freshwaternetwork.org/chesapeake/'] );
             ga('send', 'pageview');
         </script>
         <!-- End Google Analytics -->
