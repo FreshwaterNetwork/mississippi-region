@@ -4,18 +4,15 @@
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
     "titleDetail": { "text": "Mississippi Freshwater Assessment", "url": "http://freshwaternetwork.org/mississippi.html" },
     "headerLinks": [
-	{ "text": "GO TO", "url": "#", "items": [
-		{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
-		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
-		{ "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
+        { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],    
+    "regionLinks": [    
+        { "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
+        { "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
+        { "text": "Wisconsin Region", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+        { "text": "Chesapeake Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" },
         { "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
-      ]
-	},
-    { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/mississippi/index.htm" },
-    { "text": "Partners", "url": "partners.html", "popup": true },
-    { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
-    { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
     ],
     "initialExtent": [
         -92.20,
@@ -34,27 +31,34 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
-		"water-quality",
-		"flow_app",
-		"feature_compare",
-		"draw_report",
-		"hydro_alteration",
+        "HydroFlow",
 		"zoom_to",
 		"measure",
 		"legend_display",
-		"full_extent",
-		"subregion_toggle"
-       
+		"full_extent"
     ],
-    
-    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
-	"identifyEnabled": true,
-    "colors": {
-        "primary": "#457545",
-        "secondary": "#81b94d"
-    },
     "print": {
-        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
+        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+        "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },
+        "colors": {
+        "primary": "#457545",
+        "secondary": "#81b94d",
+        "tertiary": "#333333",
+        "active": "#6BCA1E"
+    },
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "identifyEnabled": true,
+    "launchpad": {
+        "title": "Explore Mississippi Freshwater!",
+        "description": "<p>Welcome to The Mississippi Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
+        "plugins": [
+            {
+                "title": "Hydro Flow",
+                "description": "HydroFlow description.",
+                "pluginName": "HydroFlow"
+            }
+        ]
     }
 }
