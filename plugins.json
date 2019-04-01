@@ -4,10 +4,6 @@
 			"repo": "HydroFlow",
 			"name": "HydroFlow",
 			"org": "FreshwaterNetwork"
-        },
-		{
-			"repo": "feature-compare",
-			"name": "feature_compare"
-		}
+        }
     ]
 }
