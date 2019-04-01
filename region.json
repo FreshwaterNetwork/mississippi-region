@@ -32,6 +32,7 @@
     ],
     "pluginOrder": [
         "HydroFlow",
+        "feature-compare",
 		"zoom_to",
 		"measure",
 		"legend_display",
@@ -58,6 +59,11 @@
                 "title": "Hydro Flow",
                 "description": "HydroFlow description.",
                 "pluginName": "HydroFlow"
+            },
+            {
+                "title": "Watershed Comparison",
+                "description": "Watershed Comparison description",
+                "pluginName": "feature-compare"
             }
         ]
     }

@@ -1,29 +1,13 @@
 {
     "plugins": [
-	
-		{   "repo": "map-tree",
-		    "name": "layer_selector"
-		},
 		{
-			"repo": "water-quality",
-            "name": "water-quality",
+			"repo": "HydroFlow",
+			"name": "HydroFlow",
 			"org": "FreshwaterNetwork"
-		},
-        {
-            "repo": "HydroFlow",
-            "name": "flow_app",
-			"org": "FreshwaterNetwork"
-        }, 
-		{
-			"repo": "draw-and-report",
-			"name": "draw_report"
-		},
+        },
 		{
 			"repo": "feature-compare",
 			"name": "feature_compare"
-		},
-		{   "repo": "map-tree",
-		    "name": "hydro_alteration"
 		}
     ]
 }
