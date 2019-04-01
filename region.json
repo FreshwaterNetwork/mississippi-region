@@ -49,7 +49,7 @@
         "active": "#6BCA1E"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "identifyEnabled": true,
+    "identifyEnabled": false,
     "launchpad": {
         "title": "Explore Mississippi Freshwater!",
         "description": "<p>Welcome to The Mississippi Freshwater Assessment. There's lots of cool stuff to check out here.</p>",
