@@ -2,7 +2,7 @@
     "plugins": [
 		{
 	    	"repo": "regional-planning",
-			"name": "map-layers"
+			"name": "regional-planning"
 	  	},
 		{
 			"repo": "HydroFlow",
@@ -15,3 +15,4 @@
 	  	}
     ]
 }
+
