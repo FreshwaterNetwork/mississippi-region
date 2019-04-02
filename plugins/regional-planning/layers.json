@@ -11,6 +11,26 @@
             {
                "name": "Rivers and Streams",
 			   "includeAllLayers": true
+			},
+			{
+               "name": "Watersheds",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Wetlands",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Political Boundaries",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Managed Areas",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Land Cover",
+			   "includeAllLayers": true
 			}
 		]	
 	}
