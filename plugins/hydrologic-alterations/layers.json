@@ -1,0 +1,33 @@
+[
+    {
+        "displayName": "Hydrologic Alterations",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Mississippi",
+            "name": "MS_Map_Layers_2"
+        },
+        "includeLayers": [
+            {
+               "name": "Hydrologic Alteration Features",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "HUC 8 Hydrologic Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "HUC 12 Hydrologic Alteration Assessments",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "County Hydrologic Alteration Assessment",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Congressional District Hydrologic Alteration Assessments",
+			   "includeAllLayers": true
+			}
+		]	
+	}
+]

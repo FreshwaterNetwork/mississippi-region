@@ -2,12 +2,16 @@
     "plugins": [
 		{
 	    	"repo": "regional-planning",
-			"name": "regional-planning"
+			"name": "map-layers"
 	  	},
 		{
 			"repo": "HydroFlow",
 			"name": "HydroFlow",
 			"org": "FreshwaterNetwork"
-        }
+        },
+        {
+	    	"repo": "regional-planning",
+			"name": "hydrologic-alterations"
+	  	}
     ]
 }
