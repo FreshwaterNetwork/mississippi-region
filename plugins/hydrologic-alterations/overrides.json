@@ -1,5 +1,6 @@
 {
     "resizable": false,
     "hasCustomPrint": false,
-	"name": "Hydrologic Alterations"
+	"name": "Hydrologic Alterations",
+	"description": "Hydrologic Alterations"
 }
