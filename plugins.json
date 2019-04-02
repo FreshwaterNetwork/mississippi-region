@@ -11,7 +11,7 @@
         },
 		{
 			"repo": "feature-compare",
-			"name": "feature-compare"
+			"name": "feature_compare"
 		},
         {
 	    	"repo": "regional-planning",
