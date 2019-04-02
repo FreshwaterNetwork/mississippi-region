@@ -9,6 +9,10 @@
 			"name": "HydroFlow",
 			"org": "FreshwaterNetwork"
         },
+		{
+			"repo": "feature-compare",
+			"name": "feature-compare"
+		},
         {
 	    	"repo": "regional-planning",
 			"name": "hydrologic-alterations"

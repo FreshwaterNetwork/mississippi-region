@@ -33,6 +33,7 @@
     "pluginOrder": [
         "regional-planning",
         "HydroFlow",
+        "feature-compare",
 		"zoom_to",
 		"measure",
 		"legend_display",
