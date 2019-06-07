@@ -12,7 +12,7 @@
         { "text": "Northeast Region", "url": "https://maps.freshwaternetwork.org/northeast/" },
         { "text": "Wisconsin Region", "url": "https://maps.freshwaternetwork.org/wisconsin/" },
         { "text": "Chesapeake Region", "url": "https://maps.freshwaternetwork.org/chesapeake/" },
-        { "text": "Alabama Demo", "url": "https://maps.freshwaternetwork.org/alabama-demo/" }
+        { "text": "Florida Region", "url": "https://maps.freshwaternetwork.org/Florida/" }
     ],
     "initialExtent": [
         -89.20,
