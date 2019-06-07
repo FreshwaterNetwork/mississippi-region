@@ -15,9 +15,9 @@
         { "text": "Alabama Demo", "url": "https://maps.freshwaternetwork.org/alabama-demo/" }
     ],
     "initialExtent": [
-        -92.20,
+        -93.20,
         29.0,
-        -88.00,
+        -89.00,
         36.0
     ],
     "basemaps": [
