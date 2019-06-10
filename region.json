@@ -10,7 +10,6 @@
     "regionLinks": [    
         { "text": "Louisiana Region", "url": "https://maps.freshwaternetwork.org/louisiana/" },
         { "text": "Northeast Region", "url": "https://maps.freshwaternetwork.org/northeast/" },
-        { "text": "Wisconsin Region", "url": "https://maps.freshwaternetwork.org/wisconsin/" },
         { "text": "Chesapeake Region", "url": "https://maps.freshwaternetwork.org/chesapeake/" },
         { "text": "Florida Region", "url": "https://maps.freshwaternetwork.org/Florida/" },
 		{ "text": "Wisconsin Region", "url": "https://maps.freshwaternetwork.org/Wisconsin/" }
